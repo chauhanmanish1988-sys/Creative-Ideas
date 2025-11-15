@@ -1,0 +1,21 @@
+.inline-error {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  background-color: #fee;
+  border-left: 3px solid #c33;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  color: #c33;
+}
+
+.inline-error-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.inline-error-text {
+  line-height: 1.4;
+}
